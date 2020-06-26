@@ -1,0 +1,217 @@
+element.style {
+}
+#topmenu ul li {
+    display: inline;
+    overflow: hidden;
+    list-style-type: none;
+    margin-left: 0px;
+}
+
+#topmenu ul #menuon a {
+    color: #000;
+    background: #eee;
+    border: 1px solid #bbbbbb;
+    padding: 8px 5px 8px 5px;
+    margin: 0;
+    text-decoration: none;
+    border-bottom: 2px solid #eee;
+}
+
+#topmenu ul {
+    color: #000;
+    border-bottom: 1px solid #bbbbbb;
+    margin: 12px 0px 0px 0px;
+    padding: 0 0 8 0;
+    padding-left: 0px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#topmenu ul li a, #topmenu ul li a:visited {
+
+    background: #336699;
+    border: 1px solid #336699;
+    padding: 8px 5px 8px 5px;
+    margin: 0;
+    text-decoration: none;
+}
+
+#contentout {
+    width: 1100px;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    overflow: auto;
+}
+
+a {
+    color: #069;
+    text-decoration: underline;
+}
+
+body {
+
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    text-align: center;
+}
+
+body, p, td, div, span, input, th, li, textarea {
+    font-family: arial,helvetica,sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+td[Attributes Style] {
+    width: 60px;
+}
+
+img {
+    border: 0px;
+}
+
+user agent stylesheet
+table {
+    border-collapse: separate;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+}
+
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+
+user agent stylesheet
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+user agent stylesheet
+input:not([type="image" i]) {
+    box-sizing: border-box;
+}
+
+user agent stylesheet
+input[type="text" i] {
+    padding: 1px 2px;
+}
+
+user agent stylesheet
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: -internal-light-dark-color(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark-color(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+}
+
+input[type=text], input[type=url], input[type=tel], input[type=number], input[type=color], input[type=email], select {
+    border: 1px solid #044284;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px #666;
+    font-size: 16px;
+}
+
+input[type=text]{
+width:auto;
+}
+
+.inhalf {
+    width: 110px;
+}
+
+.inuickspan {
+    margin-left: -27px;
+    color: #888;
+}
+
+.clearbtn {
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    color: #000;
+}
+
+input[type=image], input[type=image]:hover, input[type=image]:focus {
+    background: #518428;
+    color: #fff;
+    font-weight: bold;
+    font-size: 26px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+user agent stylesheet
+input[type="image" i] {
+    -webkit-appearance: initial;
+    background-color: initial;
+    cursor: pointer;
+    padding: initial;
+    border: initial;
+}
+user agent stylesheet
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: -internal-light-dark-color(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark-color(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+}

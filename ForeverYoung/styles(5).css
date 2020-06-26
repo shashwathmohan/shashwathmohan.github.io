@@ -1,0 +1,352 @@
+
+element.style {
+}
+
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    background: #fff;
+    color: #212432;
+    font-family: Maison Neue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    margin-left: 0;
+    padding: 0;
+    word-wrap: break-word;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 62.5%;
+}
+
+header.basic .heading.-large, header.basic .heading.-subhead, header.narrow-header .heading.-large, header.narrow-header .heading.-subhead, header.nav-header .heading.-large, header.nav-header .heading.-subhead {
+    margin-left: -4px;
+}
+header.basic .heading, header.narrow-header .heading, header.nav-header .heading {
+    font-weight: 400;
+}
+.heading.-large {
+    font-size: 4rem;
+    line-height: 4.8rem;
+    letter-spacing: -.5px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.6rem;
+    line-height: 1.2em;
+    font-weight: 400;
+    margin: 0 0 .5em;
+    text-rendering: optimizelegibility;
+}
+
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+
+user agent stylesheet
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p, p.-maintain-size {
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    padding: 0 0 3.2rem;
+}
+p {
+    color: #4e5262;
+    margin: 0;
+}
+
+.select-style.-bordered input[type=text].select-text, .select-style.-bordered select {
+    border: 1px solid #e3eaee;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 20px;
+    line-height: 1.2em;
+}
+
+.select-style.-bigger input[type=text].select-text, .select-style.-bigger select {
+    height: 40px;
+}
+.account-form input[type=email], .account-form input[type=number], .account-form input[type=password], .account-form input[type=tel], .account-form input[type=text], .account-form input[type=url], .account-form select, .account-form textarea, .standard-form input[type=email], .standard-form input[type=number], .standard-form input[type=password], .standard-form input[type=tel], .standard-form input[type=text], .standard-form input[type=url], .standard-form select, .standard-form textarea {
+    color: #212432;
+}
+.account-form input[type=email], .account-form input[type=number], .account-form input[type=password], .account-form input[type=tel], .account-form input[type=text], .account-form input[type=url], .account-form select, .account-form textarea, .login-form input[type=email], .login-form input[type=number], .login-form input[type=password], .login-form input[type=tel], .login-form input[type=text], .login-form input[type=url], .login-form select, .login-form textarea, .search-form-small input[type=email], .search-form-small input[type=number], .search-form-small input[type=password], .search-form-small input[type=tel], .search-form-small input[type=text], .search-form-small input[type=url], .search-form-small select, .search-form-small textarea, .standard-form input[type=email], .standard-form input[type=number], .standard-form input[type=password], .standard-form input[type=tel], .standard-form input[type=text], .standard-form input[type=url], .standard-form select, .standard-form textarea {
+    height: 4rem;
+    padding: .4rem 1.6rem;
+    border-radius: 3px;
+    border: 1px solid #e3ebee;
+    color: #7b7f92;
+    background: #fff;
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+}
+.select-style input[type=text].select-text, .select-style select {
+    padding: .4rem 1.2rem .4rem .4rem;
+    line-height: 1.1em;
+}
+.select-style input[type=text].select-text, .select-style option, .select-style select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+input[type=text].select-text, select {
+    line-height: 3rem;
+    font-size: 1.3rem;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    font-weight: 600;
+    height: 30px;
+    cursor: pointer;
+}
+input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], select, textarea {
+    height: 3.4rem;
+    padding: .4rem .8rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-left: 0;
+    width: 100%;
+}
+button, input, label, select, textarea {
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    font-family: Maison Neue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-weight: 400;
+}
+
+user agent stylesheet
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+user agent stylesheet
+select {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    background-color: -internal-light-dark-color(rgb(255, 255, 255), rgb(59, 59, 59));
+    cursor: default;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    border-radius: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark-color(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+}
+
+.btn.-main.active, .btn.-main:active, .btn.-main:focus, .btn.-main:hover, .btn.-main[aria-expanded=true], [data-whatinput=keyboard] .btn.-main:focus, [data-whatinput=keyboard] button.btn.-main:focus, [data-whatinput=keyboard] input[type=submit].btn.-main:focus, button.btn.-main.active, button.btn.-main:active, button.btn.-main:focus, button.btn.-main:hover, button.btn.-main[aria-expanded=true], input[type=submit].btn.-main.active, input[type=submit].btn.-main:active, input[type=submit].btn.-main:focus, input[type=submit].btn.-main:hover, input[type=submit].btn.-main[aria-expanded=true] {
+    background: -webkit-linear-gradient(44deg,#2eb7ce,#4296cb);
+    background: -o-linear-gradient(44deg,#2eb7ce 0,#4296cb 100%);
+    background: linear-gradient(46deg,#2eb7ce,#4296cb);
+    color: #fff;
+    border-color: transparent;
+}
+@media screen and (min-width: 941px)
+.btn.-large-only, button.btn.-large-only, input[type=submit].btn.-large-only {
+    font-size: 1.6rem;
+    margin: 0 0 1.6rem;
+    padding: 2.2rem 3.8rem 2rem;
+    letter-spacing: 1px;
+}
+.btn.-main, button.btn.-main, input[type=submit].btn.-main {
+    background: #4296cb;
+    border-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+}
+.active.btn, .btn:active, .btn:focus, .btn:hover, .btn[aria-expanded=true], [data-whatinput=keyboard] .btn:focus, input.active.btn[type=submit], input.btn:active[type=submit], input.btn:focus[type=submit], input.btn:hover[type=submit], input.btn[aria-expanded=true][type=submit] {
+    background-image: none;
+    border-color: #4296cb;
+    text-decoration: none;
+    color: #212432;
+}
+.btn, button.btn, input.btn[type=submit] {
+    padding: 12px 28px 10px;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    border-radius: 4px;
+    border: 1px solid #f0f4f6;
+    color: #212432;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: .5px;
+    text-align: center;
+}
+.account-form button, .login-form button, .search-form-small button, .standard-form button {
+    margin: 0;
+}
+button, input[type=submit] {
+    border-radius: 0;
+    cursor: pointer;
+    border: 1px solid #e3ebee;
+    background: none;
+}
+button, input, label, select, textarea {
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    font-family: Maison Neue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-weight: 400;
+}
+button {
+    font-family: Maison Neue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+}
+
+user agent stylesheet
+button {
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark-color(buttontext, rgb(170, 170, 170));
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark-color(rgb(239, 239, 239), rgb(74, 74, 74));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark-color(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+}
+
+#content, footer {
+    -webkit-transition: -webkit-transform .25s ease-out;
+    transition: -webkit-transform .25s ease-out;
+    -o-transition: transform .25s ease-out;
+    transition: transform .25s ease-out;
+    transition: transform .25s ease-out,-webkit-transform .25s ease-out;
+}
+
+#content {
+    display: block;
+    max-width: 40%;
+    padding-bottom: 6.8rem;
+}
+
+user agent stylesheet
+main {
+    display: block;
+}
+
+.account-form input[type=email], .account-form input[type=number], .account-form input[type=password], .account-form input[type=tel], .account-form input[type=text], .account-form input[type=url], .account-form select, .account-form textarea, .standard-form input[type=email], .standard-form input[type=number], .standard-form input[type=password], .standard-form input[type=tel], .standard-form input[type=text], .standard-form input[type=url], .standard-form select, .standard-form textarea {
+    color: #212432;
+}
+.account-form input[type=email], .account-form input[type=number], .account-form input[type=password], .account-form input[type=tel], .account-form input[type=text], .account-form input[type=url], .login-form input[type=email], .login-form input[type=number], .login-form input[type=password], .login-form input[type=tel], .login-form input[type=text], .login-form input[type=url], .search-form-small input[type=email], .search-form-small input[type=number], .search-form-small input[type=password], .search-form-small input[type=tel], .search-form-small input[type=text], .search-form-small input[type=url], .standard-form input[type=email], .standard-form input[type=number], .standard-form input[type=password], .standard-form input[type=tel], .standard-form input[type=text], .standard-form input[type=url] {
+    background: #fff;
+}
+.account-form input[type=email], .account-form input[type=number], .account-form input[type=password], .account-form input[type=tel], .account-form input[type=text], .account-form input[type=url], .account-form select, .account-form textarea, .login-form input[type=email], .login-form input[type=number], .login-form input[type=password], .login-form input[type=tel], .login-form input[type=text], .login-form input[type=url], .login-form select, .login-form textarea, .search-form-small input[type=email], .search-form-small input[type=number], .search-form-small input[type=password], .search-form-small input[type=tel], .search-form-small input[type=text], .search-form-small input[type=url], .search-form-small select, .search-form-small textarea, .standard-form input[type=email], .standard-form input[type=number], .standard-form input[type=password], .standard-form input[type=tel], .standard-form input[type=text], .standard-form input[type=url], .standard-form select, .standard-form textarea {
+    height: 4rem;
+    padding: .4rem 1.6rem;
+    border-radius: 3px;
+    border: 1px solid #e3ebee;
+    color: #7b7f92;
+    background: #fff;
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+}
+input[type=email], input[type=password], input[type=tel], input[type=text] {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-weight: 400;
+    padding-left: 0;
+    padding-right: 0;
+}
+input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], textarea {
+    background-color: transparent;
+    border-radius: 0;
+    border: 1px solid #ced1db;
+    color: #212432;
+}
+input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], select, textarea {
+    height: 3.4rem;
+    padding: .4rem .8rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-left: 0;
+    width: 100%;
+}
+button, input, label, select, textarea {
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    font-family: Maison Neue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-weight: 400;
+}
+
+user agent stylesheet
+input[type="text" i] {
+    padding: 1px 2px;
+}
+user agent stylesheet
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: -internal-light-dark-color(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark-color(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+}

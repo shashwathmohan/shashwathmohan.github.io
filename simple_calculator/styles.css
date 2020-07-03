@@ -1,0 +1,38 @@
+input{
+  width:140px;
+  height:90px;
+  font-size: 65px;
+  border-radius: 10px;
+  margin:10px;
+  background-color: #000;
+  color:#fff;
+  border-style: none;
+}
+
+#calform{
+  margin-left: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1{
+  text-shadow: 2px 2px 5px black;
+  text-align: center;
+  font-size: 70px;
+  margin-left: auto;
+  margin-top: 5px;
+  margin-bottom: auto;
+  font-family: "Comic Sans MS";
+}
+
+body{
+  border-style:dashed;
+}
+
+input{
+  box-shadow: 1px 5px 10px black;
+}
+
+input:hover{
+  opacity: .75;
+}

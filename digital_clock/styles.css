@@ -7,15 +7,15 @@ body{
   font-size: 145px;
   background-color: black;
   padding: 10px;
+  padding-right: 30px;
   width: 70%;
-  margin-left: 215px;
-  font-family: "Comic Sans MS";
+  margin: auto;
+  margin-top: 15%;
   text-align: center;
-  margin-top: 250px;
+  font-family: "Comic Sans MS";
   box-shadow: 0px 10px 10px black;
   border-radius: 10px;
 }
-
 
 div{
   text-shadow: 2px 2px 2px white;

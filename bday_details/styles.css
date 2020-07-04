@@ -1,0 +1,58 @@
+body {
+    margin-top: 15%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 800;
+  background: black;
+  color: white;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+input {
+  width: 50%;
+  font-size: 20px;
+  text-align: center;
+  box-shadow: 1px 3px 5px black;
+}
+
+#user-month, #user-day, #user-year {
+  width: 195px;
+  height: 45px;
+  text-align: center;
+}
+
+#submit-date {
+  width: 50%;
+  height: 55px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  background: red;
+  color: white;
+  font-size: 35px;
+  box-shadow: 2px 5px 10px black;
+  text-align: center;
+}
+
+#submit-date:hover{
+  opacity: .75;
+}
+
+#message{
+margin: 40px 0px;
+font-weight: 800;
+font-size: 40px;
+}
+
+html{
+    border-style: dashed;
+}

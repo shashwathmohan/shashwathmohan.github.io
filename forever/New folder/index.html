@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login | Forever Young</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <form action="insert.php" method="POST">
+<div style="background-image: url('imagefy.jpg');">
+<div class="container">
+  <h1 style="text-align:center">Login</h1>
+  <br>
+  <form action="/action_page.php">
+    <div class="row">
+
+      <div class="vl">
+        <span class="vl-innertext">or</span>
+      </div>
+
+      <div class="col">
+        <a href="https://www.facebook.com/" target="_blank" class="fb btn">
+          <i class="fa fa-facebook fa-fw"></i>Facebook
+         </a>
+         <a href="https://accounts.google.com" target="_blank" class="google btn">
+           <i class="fa fa-google fa-fw"></i>Google
+        </a>
+      </div>
+
+      <div class="col">
+        <div class="hide-md-lg">
+        </div>
+
+        <input type="text" name="username" placeholder="Username" required
+        style=" text-align: center">
+        <input type="password" name="password" placeholder="Password" required
+        style=" text-align: center">
+        <div>
+          <input type="checkbox" checked="checked"><font color="white">&nbspRemember Me
+          </div>
+        <input type="submit" value="Login">
+        <span class="forgot"><a href="forgot.html">Forgot Password?</a></span>
+      </div>
+
+    </div>
+  </form>
+</div>
+</body>
+</html>
